@@ -1,6 +1,10 @@
 DevOps Sandbox
 ==============
-This repository represents a sandbox for investigating and playing around with different configuration management tools such as [Chef](http://getchef.com), [Puppet](http://puppetlabs.com), and [Vagrant](http://www.vagrantup.com). Additional tools may be added depending on their necessity but, by and large, this repository is meant to be a resource for recording knowledge and creating test cases for using these tools that both the novice and the experienced can take advantage of.
+This repository represents a sandbox for investigating and playing around with different configuration management tools such as [Chef](http://getchef.com), [Docker](https://www.docker.com/), [Puppet](http://puppetlabs.com), [Salt Stack](http://saltstack.com/), and [Vagrant](http://www.vagrantup.com).
+
+Additional tools may be added depending on their necessity but, by and large, this repository is meant to be a resource for recording knowledge and creating test cases for using these tools that both a novice and an experienced user can make use of.
+
+For most (all?) of these examples, we're using Vagrant to create a VM and then the other tools (e.g. docker, puppet, etc.) are used to provision that machine. This is done to not only sandbox the tests but create some sort of consistency.
 
 What is "DevOps"?
 -----------------
